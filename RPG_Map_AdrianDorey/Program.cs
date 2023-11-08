@@ -43,6 +43,7 @@ namespace RPG_Map_AdrianDorey
             Console.WriteLine("RPG Map - Adrian Dorey");
             Console.WriteLine();
 
+
             DisplayMap();
             Console.WriteLine();
             DisplayLegend();
@@ -70,18 +71,18 @@ namespace RPG_Map_AdrianDorey
                     {
                         if (col == 0 || col == numCols + 1)
                         {
-                            Console.Write("+");
+                            Console.Write("º");
                         }
                         else
                         {
-                            Console.Write("-");
+                            Console.Write("═");
                         }
                     }
                     else
                     {
                         if (col == 0 || col == numCols + 1)
                         {
-                            Console.Write("|");
+                            Console.Write("║");
                         }
                         else
                         {
@@ -112,14 +113,14 @@ namespace RPG_Map_AdrianDorey
                     
                             if (col == 0 || col == numCols + 1)
                             {
-                                Console.Write("+");
+                                Console.Write("º");
                             }
                                 
                             else
                             {
                                 for (int k = 0; k < scale; k++)
                                 {
-                                    Console.Write("-");
+                                    Console.Write("═");
                                 }
                             }
                         }
@@ -128,7 +129,7 @@ namespace RPG_Map_AdrianDorey
                         {
                             if (col == 0 || col == numCols + 1)
                             {
-                                Console.Write("|");
+                                Console.Write("║");
                             }
                             else
                             {
