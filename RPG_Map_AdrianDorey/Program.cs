@@ -38,7 +38,6 @@ namespace RPG_Map_AdrianDorey
         static int numRows = map.GetLength(0);
         static int numCols = map.GetLength(1);
 
-
         static void Main(string[] args)
         {
             Console.WriteLine("RPG Map - Adrian Dorey");
@@ -148,8 +147,6 @@ namespace RPG_Map_AdrianDorey
                 }
             }
         }
-
-
 
         static void MapColor(char c)
         {
